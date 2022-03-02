@@ -1,0 +1,66 @@
+html{
+  height: 100%;
+}
+body {
+  font-family: Source Sans Pro;
+  background: #282828;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23d5ab);
+  background-size: 400% 400%;
+animation: Gradient 15s ease infinite;
+
+
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.P{
+  background-color: white;
+  margin: auto;
+  margin-top: 250px;
+  padding: 15px;
+  box-shadow: 10px 10px 20px gray;
+  width: 450px;
+}
+
+form{
+  margin: auto;
+  width: 350px;
+}
+
+td.td1{
+  text-align: left;
+  padding: 15px;
+}
+
+input[type=text]{
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background: none;
+}
+
+select{
+  width: 100px;
+  background: none;
+  border-color: black;
+  margin-right: auto;
+}
+
+input[type=submit], input[type=reset]{
+  background: rgb(255,178,185);
+  background: linear-gradient(0deg, rgba(255,178,185,1) 13%, rgba(255,195,160,1) 69%);
+  width: 90px;
+  height: 35px;
+  border-radius: 50px;
+  border: 0px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
